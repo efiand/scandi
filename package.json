@@ -1,0 +1,15 @@
+{
+	"devDependencies": {
+		"pineglade-app": "github:efiand/pineglade-app"
+	},
+	"name": "svelte-fastify-template",
+	"private": true,
+	"pre-commit": "lint",
+	"scripts": {
+		"build": "npm start build",
+		"dev": "npm start dev",
+		"lint": "npm start lint",
+		"start": "node node_modules/pineglade-app"
+	},
+	"type": "module"
+}
