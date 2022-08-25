@@ -1,0 +1,9 @@
+.reviews {
+	padding-top: rem(65);
+	padding-bottom: rem(65);
+}
+
+.reviews__title {
+	margin: 0 0 rem(40);
+	text-align: center;
+}

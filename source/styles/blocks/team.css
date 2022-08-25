@@ -1,0 +1,42 @@
+.team {
+	padding-bottom: rem(35);
+}
+
+.team__title {
+	margin: 0 0 rem(40);
+	text-align: center;
+}
+
+.team__list {
+	display: grid;
+	gap: rem(38);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	@media (--tablet-desktop) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (--desktop) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.team__image {
+	display: block;
+	margin: 0 auto;
+
+	& img {
+		display: block;
+
+		@media (--tablet-desktop) {
+			min-height: rem(253);
+			object-fit: contain;
+		}
+	}
+}
+
+.team__description {
+	margin: rem(10) 0 0;
+}

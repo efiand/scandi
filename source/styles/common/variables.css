@@ -1,5 +1,12 @@
+/* Пиксель, выраженный в rem (использование: rem(14)) */
+$px: 1rem / 18;
+
 $transitions: color, opacity, background-color, border-color, box-shadow;
 
 :root {
 	--color-white: #ffffff;
+	--color-base: #533738;
+	--color-bg: #8d7370;
+	--color-bg-alter: #e2c4ba;
+	--color-interactive: #cc8b86;
 }

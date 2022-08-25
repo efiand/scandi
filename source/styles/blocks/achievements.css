@@ -1,0 +1,41 @@
+.achievements {
+	padding-top: rem(30);
+	padding-bottom: rem(36);
+	color: var(--color-white);
+	background-color: var(--color-bg);
+
+	@media (--tablet-desktop) {
+		padding-top: rem(85);
+		padding-bottom: rem(80);
+	}
+}
+
+.achievements__list {
+	display: grid;
+	gap: rem(30);
+	margin: 0;
+
+	@media (--tablet-desktop) {
+		grid-template-columns: auto 1fr auto;
+	}
+}
+
+.achievements__item {
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.achievements__key {
+	font-weight: 500;
+	font-size: rem(30);
+	line-height: rem(37);
+}
+
+.achievements__value {
+	order: -1;
+	margin: 0 0 rem(8);
+	font-size: rem(50);
+	line-height: rem(62);
+}

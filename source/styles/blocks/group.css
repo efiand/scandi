@@ -1,0 +1,25 @@
+.group {
+	color: var(--color-white);
+	background-color: var(--color-bg);
+}
+
+.group__container {
+	@media (--tablet-desktop) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: rem(20);
+	}
+}
+
+.group__ticket {
+	@media (--desktop) {
+		margin-left: rem(82);
+	}
+}
+
+.group__map {
+	@media (--mobile) {
+		margin-right: rem(-20);
+		margin-left: rem(-20);
+	}
+}

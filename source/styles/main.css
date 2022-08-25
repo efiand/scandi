@@ -3,3 +3,6 @@
 @import 'common/global.css';
 
 @import 'blocks/**/*.css';
+
+@import 'common/fonts.css';
+@import 'common/keyframes.css';

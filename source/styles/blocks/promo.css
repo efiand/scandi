@@ -1,0 +1,13 @@
+.promo__slogan {
+	font-weight: 400;
+	font-size: rem(50);
+	line-height: rem(62);
+}
+
+.promo__description {
+	margin: rem(20) 0 rem(25);
+
+	@media (--desktop) {
+		margin-right: rem(60);
+	}
+}

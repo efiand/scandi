@@ -1,0 +1,44 @@
+.form__body {
+	.form_sended & {
+		display: none;
+	}
+}
+
+.form__group {
+	margin: 0 0 rem(25);
+}
+
+.form__field {
+	width: 100%;
+	padding: rem(7) 0;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid;
+
+	&::placeholder {
+		opacity: 1;
+	}
+}
+
+.form__message {
+	display: none;
+	margin: rem(4) 0 0;
+	font-size: rem(14);
+
+	.form_validable .form__field:invalid ~ & {
+		display: block;
+	}
+}
+
+.form__submit {
+	display: block;
+	margin-top: rem(32);
+}
+
+.form__res {
+	display: none;
+
+	.form_sended & {
+		display: block;
+	}
+}

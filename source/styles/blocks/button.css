@@ -1,0 +1,22 @@
+.button {
+	display: inline-block;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	padding: rem(25) rem(70);
+	font-size: rem(20);
+	line-height: 1.2;
+	text-decoration: none;
+	text-align: center;
+	color: var(--color-base);
+	background-color: var(--color-interactive);
+	border: none;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:active {
+		opacity: 0.5;
+	}
+}

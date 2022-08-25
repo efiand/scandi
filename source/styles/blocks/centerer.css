@@ -1,9 +1,4 @@
-@define-mixin visuallyHidden {
-	position: fixed;
-	transform: scale(0);
-}
-
-@define-mixin centerer {
+.centerer {
 	max-width: rem(1200);
 	margin-right: auto;
 	margin-left: auto;

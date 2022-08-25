@@ -1,0 +1,44 @@
+.review {
+	display: grid;
+	gap: rem(20);
+
+	@media (--tablet-desktop) {
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+	}
+}
+
+.review__quote {
+	margin: 0;
+}
+
+.review__author {
+	display: block;
+	margin-top: rem(25);
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.review__photos {
+	display: grid;
+	gap: rem(25);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	@media (--tablet) {
+		justify-content: end;
+	}
+}
+
+.review__photo {
+	&:nth-child(odd) {
+		@media (--mobile) {
+			justify-self: end;
+		}
+	}
+}
+
+.review__image img {
+	display: block;
+}

@@ -1,0 +1,26 @@
+.about {
+	padding-top: rem(65);
+
+	& img {
+		display: block;
+	}
+}
+
+.about__title {
+	margin: 0 0 rem(40);
+	text-align: center;
+}
+
+.about__body {
+	display: grid;
+	gap: rem(30) rem(64);
+	margin-bottom: rem(40);
+
+	@media (--tablet-desktop) {
+		grid-template-columns: 1fr 1.19fr;
+	}
+
+	@media (--desktop) {
+		margin-bottom: rem(22);
+	}
+}

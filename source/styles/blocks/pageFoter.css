@@ -1,0 +1,20 @@
+.pageFooter {
+	display: grid;
+	gap: rem(10) rem(42);
+	padding-top: rem(34);
+	padding-bottom: rem(42);
+	text-align: center;
+
+	@media (--tablet-desktop) {
+		grid-template-columns: auto 1fr auto;
+		text-align: left;
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.pageFooter__address {
+	font-style: normal;
+}

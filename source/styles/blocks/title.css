@@ -1,0 +1,6 @@
+.title {
+	font-weight: 400;
+	font-size: rem(40);
+	line-height: rem(50);
+	text-transform: uppercase;
+}
